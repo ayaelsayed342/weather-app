@@ -1,14 +1,14 @@
 // Display Functions
 function displayTemperature(temp) {
-  document.getElementById("temp").textContent = Temperature: ${temp}°C;
+  document.getElementById("temp").textContent = `Temperature: ${temp}°C`;
 }
 
 function displayHumidity(humidity) {
-  document.getElementById("humidity").textContent = Humidity: ${humidity}%;
+  document.getElementById("humidity").textContent = `Humidity: ${humidity}%`;
 }
 
 function displayCondition(condition) {
-  document.getElementById("condition").textContent = Condition: ${condition};
+  document.getElementById("condition").textContent = `Condition: ${condition}`;
 }
 
 // Error Handling + Simulation
